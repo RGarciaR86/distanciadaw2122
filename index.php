@@ -8,16 +8,16 @@
 * 
 * @internal Función que suma dos números pasados como parámetros.
 *
-* @param int $num1 Primer sumando de la operación de suma.
+* @param int $numero1 Primer sumando de la operación de suma.
 * 
-* @param int $num2 Segundo sumando de la operación de suma.
+* @param int $numero2 Segundo sumando de la operación de suma.
 *
 * @return int El resultado de la suma de ambos números.
 */
 
 
-   function sumar($num1, $num2){
-      $resultado = $num1 + $num2;
+   function sumar($numero1, $numero2){
+      $resultado = $numero1 + $numero2;
       return $resultado;
    }
 
